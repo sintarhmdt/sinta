@@ -1,0 +1,46 @@
+<footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="social-icons">
+              <li><a href="#"><img src="<?= base_url('assets/upload/iy (2).png')  ?>" alt="image description" style= "width:50px; height:50px; ">Ngangkut Yuk Ofc</a></li>
+              <li><a href="#"><img src="<?= base_url('assets/upload/ig2.png')  ?>" alt="image description" style= "width:50px; height:50px; ">Ofc.Ngangkut_Yuk</a></li>
+              <li><a href="#"><img src="<?= base_url('assets/upload/tw3.png')  ?>" alt="image description" style= "width:50px; height:50px; ">Ngangkut Yuk Official</a></li>
+            </ul>
+          </div> 
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>
+                Copyright © 2019
+                | Template by: NGANGKUT YUK
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="<?= base_url('assets/assets_shop') ?>/vendor/jquery/jquery.min.js"></script>
+    <script src="<?= base_url('assets/assets_shop') ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="<?= base_url('assets/assets_shop') ?>/js/custom.js"></script>
+    <script src="<?= base_url('assets/assets_shop') ?>/js/owl.js"></script>
+    <script src="<?= base_url('assets/assets_shop') ?>/js/slick.js"></script>
+    <script src="<?= base_url('assets/assets_shop') ?>/js/isotope.js"></script>
+    <script src="<?= base_url('assets/assets_shop') ?>/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
